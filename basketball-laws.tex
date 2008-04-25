@@ -97,9 +97,17 @@ the referees) please refer to the general \HuroCup\ laws.
     the playing field.
   \end{itemize}
 
+\item The ballzone is constructed by drawing a circle centered on the
+  three point line exactly in front of the basket. The radius of the
+  ballzone circle is the distance between the three point line and the
+  start point for the robot. The area of this circle that is outside
+  of the three point line is called the ball
+  zone. Figure~\ref{fig:field-basketball} shows the ball zones for
+  small and medium robots.
+
 \end{lawlist}
 
-\law[BB]{The Ball and Basket}
+\law[BB]{The Ball, Basket, and Holder}
 
 \begin{lawlist}[BB]
 
@@ -117,7 +125,7 @@ the referees) please refer to the general \HuroCup\ laws.
   \item The basket contains a white backboard. The backboard is 20cm
   to 25cm wide and 10cm to 15cm tall.
 
-  \begin{figure}
+ \begin{figure}
     \begin{center}
       \includegraphics[width=0.7\textwidth]{Figures/basketball-basket}
     \end{center}
@@ -125,7 +133,25 @@ the referees) please refer to the general \HuroCup\ laws.
              holding a yellow table tennis ball.}
     \label{fig:basketball-basket}
   \end{figure}
-\end{lawlist}
+
+ \item A team may use a ball holder as shown in
+   Fig.~\ref{fig:basketball-holder} to lift the ball off the
+   ground. The diameter of the ball holder must be less than 2cm. The
+   ball holder may only be used to lift the ball off the ground by a
+   maximum of 20cm and the mechanics of the ball holder must not help
+   the robot in any way in localizing itself or the ball. For example,
+   it is forbidden to use the ball holder as a guide rail to align the
+   robot with the basket.
+  
+ \begin{figure}
+    \begin{center}
+      \includegraphics[width=0.7\textwidth]{Figures/basketball-holder}
+    \end{center}
+    \caption{A robot with a basketball holder.}
+    \label{fig:basketball-holder}
+  \end{figure}
+
+ \end{lawlist}
 
 \law[BB]{Number of Robots}
 
@@ -172,14 +198,21 @@ the assitant referee.
  \item The thrower must be at the start point at the beginning of the
  throw. 
 
-\item The throw begins by the referee blowing a whistle.
+ \item After the thrower has been placed, the referee will select a
+   random position inside of the ball zone. If a team wishes to use an
+   approved ball holder, the ball will be placed on the holder,
+   otherwise the ball will be placed on the ground at the selected
+   location.
+
+ \item The throw begins by the referee blowing a whistle.
 
 \item The end of the throw is signaled by the referee by
   blowing the whistle a second time.
   The referee terminates the throw if
   \begin{itemize}
   \item the ball entered the basket after being thrown by the thrower,
-  \item the robot damages or moves the basket or playing field in any way,
+  \item the robot damages or moves the basket, holder, or playing
+    field in any way,
   \item the ball moved outside of the playing field,
   \item a robot leaves the playing field,
   \item the maximum duration of the competition (2 minutes) has elapsed,
@@ -193,10 +226,6 @@ the assitant referee.
  thrower. 
 
 \end{lawlist}
-
-\begin{decisions}
-\item In 2007, the robot will be allowed to start holding the ball.
-\end{decisions}
 
 \law[BB]{Method of Scoring}
 \label{basketball-scoring}
@@ -271,6 +300,7 @@ the assitant referee.
 % *** mode: LaTeX ***
 % *** mode: outline-minor ***
 % *** mode: auto-fill ***
+% *** mode: font-lock ***
 % *** outline-regexp: "% !\\|\\\\\\(sub\\)*section" ***
 % *** TeX-command-default: "LaTeX PDF" ***
 % *** End: ***
