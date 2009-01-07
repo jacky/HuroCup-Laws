@@ -47,11 +47,6 @@ the robustness and endurance of humanoid robots. The task is for the
 robot to track a visible line for a distance of 42.195m (1/1000 of a
 human marathon distance) as quickly as possible. 
 
-\section{Changes in the Laws of \HuroCup\ Marathon for 2008}
-
-There are no significant changes in the laws of the marathon event
-between 2007 and 2008.
-
 \section{Laws of the Game: Marathon}
 \label{sec:marathon-laws}
 
@@ -65,7 +60,8 @@ the referees) please refer to the general \HuroCup\ laws.
 
 \begin{lawlist}[MR]
 
-\item The track for the marathon event is on an even surface.
+\item The track for the marathon event is relatively smooth and does
+  not contain any spot with a height difference of more than 5mm.
 
 \item The centre of the track is marked with a 4 - 8cm wide coloured
 line, called the centre line.
@@ -92,6 +88,15 @@ line, called the centre line.
 
 \end{lawlist}
 
+\begin{decisions}
+
+\item The marathon will most likely be performed outdoors during
+  daylight hours. Teams must ensure that their robot is able to deal
+  with varying lighting conditions as well as small cracks or uneven
+  surfaces that may be found on regular pavement or concrete floors.
+
+\end{decisions}
+
 \law[MR]{Number of Robots}
 
 \begin{lawlist}[MR]
@@ -117,10 +122,11 @@ the assitant referee.
 
 \begin{lawlist}[MR]
 
-\item Robots are assigned start numbers. The race commences with a
-  staggered start of 3 minute intervals, that is the robot with start
-  number $n$ will start 3 minutes after the robot with start number
-  $n-1$.
+\item Robots are assigned start numbers approximately based on their
+  performance in the sprint event. Faster robots are given lower start
+  numbers. The race commences with a staggered start of 3 minute
+  intervals, that is the robot with start number $n$ will start 3
+  minutes after the robot with start number $n-1$.
 
 \item The start of a run for a robot is signaled by the referee
   blowing the whistle. After the referee blows the whistle, the robot
@@ -209,6 +215,14 @@ the assitant referee.
 \item \label{inf-batteries} Not withstanding~\ref{inf-fix}, a team is
   not allowed to change the batteries during the competition, changing
   the batteries will immediately terminate the race for this robot.
+
+\item \label{dead-reckoning} The robot must be able to sense the
+  track. A handler is not allowed to re-program the robot to execute a
+  pre-programmed set of motions (dead reckoning) to advance along the
+  track. The referee will imeediately terminate the race for a robot
+  that in the opinion of the referee does not sense the track
+  autonomously.
+
 \end{lawlist}
 
 \law[MR]{Method of Scoring}

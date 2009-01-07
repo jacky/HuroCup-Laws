@@ -15,7 +15,7 @@
    inkscape:version="0.46"
    version="1.0"
    sodipodi:docbase="/home/jacky/Papers/HuroSotLaws/Figures"
-   sodipodi:docname="basketball.svg"
+   sodipodi:docname="basketball-field.svg"
    inkscape:export-filename="/home/jacky/Papers/HuroCupLaws/Figures/basketball-field.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -168,14 +168,14 @@
      inkscape:cx="1078.8923"
      inkscape:cy="654.06647"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      width="540mm"
      height="360mm"
      units="mm"
-     inkscape:window-width="914"
-     inkscape:window-height="787"
-     inkscape:window-x="160"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="839"
+     inkscape:window-x="-5"
+     inkscape:window-y="-3"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -490,7 +490,7 @@
          sodipodi:role="line"
          id="tspan3056"
          x="587.34143"
-         y="641.09692">60cm</tspan></text>
+         y="641.09692">75cm</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -529,7 +529,7 @@
          sodipodi:role="line"
          id="tspan3062"
          x="487.22855"
-         y="495.88202">40cm</tspan></text>
+         y="495.88202">50cm</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.54330754;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        d="M 1598.7576,608.11112 L 1347.0436,294.92222"
@@ -570,6 +570,6 @@
          sodipodi:role="line"
          id="tspan5041"
          x="688.16821"
-         y="545.5791">20cm</tspan></text>
+         y="545.5791">25cm</tspan></text>
   </g>
 </svg>

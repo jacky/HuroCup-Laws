@@ -45,11 +45,10 @@ always available from the FIRA \HuroCup\ website (http://www.fira.net).
 In the obstacle run challenge, the robot must move from one end of the
 playing field to the other as quickly as possible.
 
-There are three types of obstacles in the environment: (a) step
-obstacles that a sufficiently mobile robot can overcome by stepping
-over them, (b) wall obstacles which can not be overcome, and (c) gate
-obstacles that a sufficiently mobile robot can overcome by crawling
-under them.
+There are three types of obstacles in the environment: (a) hole
+obstacles that simulate holes in the floor, (b) wall obstacles which
+can not be overcome, and (c) gate obstacles that a sufficiently mobile
+robot can overcome by crawling under them.
 
 \section{Changes in the Laws of \HuroCup\ Obstacle Run for 2008}
 
@@ -68,8 +67,8 @@ the referees) please refer to the general \HuroCup\ laws.
 \label{law:or-field}
 
 \begin{lawlist}[OR]
-\item The dimensions of the playing field are at least 220cm by
-  180cm. 
+\item The dimensions of the playing field are at least 430cm by
+  200cm. 
 \item There is a finish line marked on one side of the playing field.
   This side of the playing field is called the finish side. The
   opposite side of the playing field is called the start side. The two
@@ -91,14 +90,14 @@ the referees) please refer to the general \HuroCup\ laws.
   of the playing field. The distance between the start point and the
   finish line depends on the category of the robot.
   \begin{enumerate}
-  \item The start point for small robots is 120 cm in front of the
+  \item The start point for small robots is 300 cm in front of the
     finish line. 
-  \item The start point for large robots is 200 cm in front of the
+  \item The start point for large robots is 400 cm in front of the
     finish line. 
   \end{enumerate}
-\item Teams may place small coloured or infra red markers in the area
-  behind the end zone to guide the robot as long as they do not
-  interfere with other teams.
+\item Teams may place small coloured markers in the area behind the
+  end zone to guide the robot as long as they do not interfere with
+  other teams.
 \end{lawlist}
 
 \law[OR]{Obstacles}
@@ -106,9 +105,9 @@ the referees) please refer to the general \HuroCup\ laws.
 
 \begin{lawlist}[OR]
 
-\item \label{or-obs-step} A step obstacle is a low obstacle. This type
-of obstacle is at most 2.5cm high and less than 5mm wide and a minimum
-length of 40cm. The colour of a step obstacle is yellow.
+\item \label{or-obs-hole} A hole obstacle is a thin obstacle on the
+  playing field. The shape and size of the hole obstacles is
+  undefined. The colour of a hole obstacle is yellow.
 
 \item \label{or-obs-wall} A wall obstacle is an obstacle that is
 placed on the floor and has a height of approximately 30cm. It has
@@ -117,8 +116,6 @@ a minimum length of 40cm. The colour of a wall obstacle is blue.
 \item \label{or-obs-gate} A gate obstacle is an obstacle that is
 placed at a height of approximately 30cm. It has
 a minimum length of 40cm. The colour of a gate obstacle is red.
-
-\item The shape of an obstacle is a either flat or circular.
 
 \item The following figure shows pictures of suitable obstacle.
 
@@ -156,6 +153,15 @@ a minimum length of 40cm. The colour of a gate obstacle is red.
     40cm as can be seen in Fig.~\ref{fig:obstacle-run}. 
   \end{itemize}
 \end{lawlist}
+
+\begin{decisions}
+
+\item A hole obstacle is supposed to simulate holes in the playing
+  field. Therefore, a robot is not allowed to touch such an
+  obstacle. However, the robot is allowed to step over a thin hole
+  obstacle
+
+\end{decisions}
 
 \law[OR]{Number of Robots}
 
@@ -218,9 +224,9 @@ the assitant referee.
     elapsed. 
   \item the robot is immobilized by a technical defect,
   \item the robot leaves the playing field,
-  \item the robot touches one of the wall or gate obstacles (In case
-    the obstacle was moved by the robot, the obstacle will be
-    repositioned by the referee),  
+  \item the robot touches one of the wall, hole, or gate obstacles (In
+    case the obstacle was moved by the robot, the obstacle will be
+    repositioned by the referee),
   \item at least two minutes have elapsed since the start of the
     competition and it is unlikely in the opinion of the referee that
     the robot will cross the finish line within the minute,
