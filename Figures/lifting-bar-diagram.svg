@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -12,15 +12,23 @@
    height="765"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.44"
+   inkscape:version="0.46"
    version="1.0"
    sodipodi:docbase="/home/jacky/Papers/HuroSotLaws/Figures"
    sodipodi:docname="lifting-bar-diagram.svg"
-   inkscape:export-filename="/home/jacky/Papers/HuroSotLaws/Figures/lifting-bar-diagram.png"
+   inkscape:export-filename="/home/jacky/Papers/HuroCupLaws/Figures/lifting-bar-diagram.png"
    inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-ydpi="90"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 382.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="990 : 382.5 : 1"
+       inkscape:persp3d-origin="495 : 255 : 1"
+       id="perspective45" />
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
@@ -118,9 +126,10 @@
      width="765px"
      height="990px"
      inkscape:window-width="849"
-     inkscape:window-height="581"
-     inkscape:window-x="385"
-     inkscape:window-y="0" />
+     inkscape:window-height="680"
+     inkscape:window-x="0"
+     inkscape:window-y="151"
+     showgrid="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -207,12 +216,12 @@
          id="text2948"
          y="500.74811"
          x="487.81985"
-         style="font-size:22.95380211px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         style="font-size:22.95380211px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
            y="500.74811"
            x="487.81985"
            id="tspan2950"
-           sodipodi:role="line">30cm</tspan></text>
+           sodipodi:role="line">40cm</tspan></text>
     </g>
     <g
        id="g2978"
@@ -226,12 +235,12 @@
          id="text2971"
          y="205.37395"
          x="442.12469"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
            y="205.37395"
            x="442.12469"
            id="tspan2973"
-           sodipodi:role="line">40 - 50cm</tspan></text>
+           sodipodi:role="line">50 - 80cm</tspan></text>
     </g>
     <rect
        style="fill:gray;fill-opacity:1;stroke:white;stroke-width:3.54330707;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
