@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -12,15 +12,23 @@
    height="765"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.44"
+   inkscape:version="0.46"
    version="1.0"
    sodipodi:docbase="/home/jacky/Papers/HuroSotLaws/Figures"
-   sodipodi:docname="robot-dash.svg"
-   inkscape:export-filename="/home/jacky/Papers/HuroSotLaws/Figures/robot-dash.png"
+   sodipodi:docname="sprint.svg"
+   inkscape:export-filename="/home/jacky/HuroCupLaws/Figures/sprint.png"
    inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-ydpi="90"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 382.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="990 : 382.5 : 1"
+       inkscape:persp3d-origin="495 : 255 : 1"
+       id="perspective48" />
     <marker
        inkscape:stockid="Arrow1Lend"
        orient="auto"
@@ -60,7 +68,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.66666667"
      inkscape:cx="548.65821"
-     inkscape:cy="404.63415"
+     inkscape:cy="364.24468"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="765px"
@@ -68,7 +76,7 @@
      showgrid="true"
      inkscape:object-bbox="false"
      inkscape:window-width="849"
-     inkscape:window-height="711"
+     inkscape:window-height="719"
      inkscape:window-x="515"
      inkscape:window-y="83" />
   <metadata
@@ -95,7 +103,7 @@
        y="44.983032" />
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="180.19727"
        y="-932.64844"
        id="text2768"
@@ -104,7 +112,7 @@
          sodipodi:role="line"
          id="tspan2770"
          x="180.19727"
-         y="-932.64844">Finish Side &gt; 180cm</tspan></text>
+         y="-932.64844">Finish Side &gt; 200cm</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1.77165354;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend);stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 920,44.985755 L 920,103.29571 L 920,684.51424"
@@ -115,7 +123,7 @@
        id="path3843" />
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="321.99023"
        y="752.35156"
        id="text3845"
@@ -123,7 +131,7 @@
          sodipodi:role="line"
          id="tspan3847"
          x="321.99023"
-         y="752.35156">Side Line &gt; 220cm</tspan></text>
+         y="752.35156">Side Line &gt; 450cm</tspan></text>
     <rect
        style="fill:none;fill-opacity:1"
        id="rect3849"
@@ -206,7 +214,7 @@
        id="path3875" />
     <text
        xml:space="preserve"
-       style="font-size:23.87220383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:23.87220383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="416.01495"
        y="668.22223"
        id="text3877"
@@ -215,14 +223,14 @@
          sodipodi:role="line"
          id="tspan3879"
          x="416.01495"
-         y="668.22223">200cm</tspan></text>
+         y="668.22223">400cm</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1.77165354;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend);stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 759.6836,308.15882 L 736.03541,308.15882 L 500.3164,308.15882"
        id="path3881" />
     <text
        xml:space="preserve"
-       style="font-size:23.87221527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:23.87221527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="575.1629"
        y="346.509"
        id="text3883"
@@ -231,7 +239,7 @@
          sodipodi:role="line"
          id="tspan3885"
          x="575.1629"
-         y="346.509">120cm</tspan></text>
+         y="346.509">300cm</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
