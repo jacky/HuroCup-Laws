@@ -6,8 +6,6 @@
 \LoadClass{article}
 \usepackage{graphicx}
 
-\newcommand{\HuroCup}{\textsc{HuroCup}}
-
 \newcounter{law}[section]
 \newcounter{comment}
 

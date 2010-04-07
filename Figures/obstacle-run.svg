@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,11 +13,10 @@
    height="765"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.47pre4 r22446"
    version="1.0"
-   sodipodi:docbase="/home/jacky/Papers/HuroSotLaws/Figures"
    sodipodi:docname="obstacle-run.svg"
-   inkscape:export-filename="/home/jacky/Papers/HuroCupLaws/Figures/obstacle-run.png"
+   inkscape:export-filename="/home/jacky/HuroCupLaws/Figures/obstacle-run.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
@@ -55,6 +55,27 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
          transform="scale(0.8) translate(12.5,0)" />
     </marker>
+    <inkscape:perspective
+       id="perspective3660"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3682"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3722"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -77,8 +98,9 @@
      inkscape:object-bbox="false"
      inkscape:window-width="1440"
      inkscape:window-height="839"
-     inkscape:window-x="-5"
-     inkscape:window-y="-3" />
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -87,6 +109,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -100,7 +123,10 @@
        width="799.53394"
        height="639.53394"
        x="80.483658"
-       y="44.982403" />
+       y="44.982403"
+       inkscape:export-filename="/home/jacky/HuroCupLaws/Figures/obstacle-run.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -220,12 +246,12 @@
        d="M 540 351 A 45 45 0 1 1  450,351 A 45 45 0 1 1  540 351 z"
        transform="translate(0,13.75)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:blue;stroke-width:17.71653557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 698,121 L 578,121 L 538,201"
+       style="fill:none;stroke:#0000ff;stroke-width:17.71653557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 639.11328,140.13818 -120,0 -40,80"
        id="path2826" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:blue;stroke-width:17.71653557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 677.08594,308.59521 L 677.08594,428.59521 L 757.08594,468.59521"
+       style="fill:none;stroke:#0000ff;stroke-width:17.71653557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 649.11474,277.67968 0,120 80,40"
        id="path2832" />
     <g
        id="g1910"
@@ -328,44 +354,74 @@
        transform="matrix(1.002612,0,0,0.724694,167.0582,25.24976)" />
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="429.42383"
-       y="74.771973"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="663.49854"
+       y="138.0752"
        id="text2822"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2824"
-         x="429.42383"
-         y="74.771973">Obstacles</tspan><tspan
+         x="663.49854"
+         y="138.0752">Obstacles</tspan><tspan
          sodipodi:role="line"
-         x="429.42383"
-         y="97.271973"
+         x="663.49854"
+         y="160.5752"
          id="tspan2836">Step </tspan><tspan
          sodipodi:role="line"
-         x="429.42383"
-         y="119.77197"
+         x="663.49854"
+         y="183.0752"
          id="tspan2838">Wall</tspan><tspan
          sodipodi:role="line"
-         x="429.42383"
-         y="142.27197"
+         x="663.49854"
+         y="205.5752"
          id="tspan2840">Gate</tspan></text>
     <path
        sodipodi:type="arc"
-       style="fill:blue;fill-opacity:1;stroke:#dcdcdc;stroke-width:1.77165353;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#0000ff;fill-opacity:1;stroke:#dcdcdc;stroke-width:1.77165353;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path2830"
        sodipodi:cx="590.33936"
        sodipodi:cy="258.57422"
        sodipodi:rx="50.053711"
        sodipodi:ry="57.414551"
-       d="M 640.39307 258.57422 A 50.053711 57.414551 0 1 1  540.28564,258.57422 A 50.053711 57.414551 0 1 1  640.39307 258.57422 z"
-       transform="matrix(1.002612,0,0,0.724694,99.05821,431.2498)" />
+       d="m 640.39307,258.57422 a 50.053711,57.414551 0 1 1 -100.10743,0 50.053711,57.414551 0 1 1 100.10743,0 z"
+       transform="matrix(1.002612,0,0,0.724694,65.198347,394.4456)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:red;stroke-width:17.39040756;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 699.83694,621.16306 L 731.3048,449.6952"
+       style="fill:none;stroke:#ff0000;stroke-width:17.39040756;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 660.08841,587.3032 691.55627,415.83534"
        id="path2834" />
     <path
        style="fill:#ffff00;fill-rule:evenodd;stroke:none;stroke-width:0.99999994000000003px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 564.17557,619.25534 L 529.98047,477.82907 L 596.3592,426.40134 L 631.56005,507.8286 L 564.17557,619.25534 z"
        id="path2432" />
+    <path
+       style="fill:none;stroke:#fcff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 253.21289,108.41309 509.37011,0"
+       id="path3650" />
+    <path
+       style="fill:none;stroke:#fcff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 249.32422,632.50488 509.37011,0"
+       id="path3650-7" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="270.9624"
+       y="100.51172"
+       id="text2822-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="270.9624"
+         y="100.51172"
+         id="tspan2840-8">Boundary Line</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="333.56689"
+       y="650.72021"
+       id="text2822-7-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="333.56689"
+         y="650.72021"
+         id="tspan2840-8-9">Boundary Line</tspan></text>
   </g>
 </svg>

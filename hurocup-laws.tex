@@ -3,39 +3,15 @@
 % in 2002. 
 % Jacky Baltes <jacky@cs.umanitoba.ca> 
 
-\documentclass[12pt]{article}
+\documentclass[12pt]{hurocup}
 \usepackage{graphicx}
-%\usepackage{prelim2e}
 
-%\usepackage[DVIps]{changebar}
-% \setlength{\changebarsep}{3.5cm}
-
-\newcommand{\HuroCup}{\textsc{HuroCup}}
-
-
-\newcounter{law}[section]
-\newcounter{comment}
-
-\newcommand{\law}[2][Law]{ %
-  \refstepcounter{law} %
-  \renewcommand\thesubsection{#1-\arabic{law}} %
-  \subsection{\hfill #2} %
-}  
-
-\newenvironment{lawlist}[1][Law]{ %
-  \begin{enumerate} %
-    \renewcommand{\theenumi}{#1-\arabic{law}.\arabic{enumi}}} %
-  {\end{enumerate}}
-
-\newenvironment{decisions}{\underline{\makebox[\textwidth][l]{\textbf{Decisions}}}\begin{enumerate}\renewcommand{\theenumi}{Dec-\arabic{law}.\arabic{enumi}}}{\end{enumerate}}
-
-\newcommand{\comment}[1]{\refstepcounter{comment}
-  \marginpar{C-\arabic{comment}} \textit{Comment-\arabic{comment}:#1}}
+\include{hurocup_defs}
 
 \begin{document}
 
 \title{\HuroCup\\
-  General Laws of the Game 2009}
+  General Laws of the Game \thisyear}
 
 \author{Jacky Baltes\\
 Autonomous Agents Laboratory\\
@@ -88,24 +64,15 @@ search and rescue robots, care robots, etc.
 As a benchmark problem, the goal of the \HuroCup\ league is to develop
 humanoid robots that can perform several tasks in complex environments.
 
-\section{Changes in the Laws of \HuroCup\ for 2009}
+\section{Changes in the Laws of \HuroCup\ for \thisyear}
 
-The main goal of the 2009 rules was to fix some loop holes and
-ambiguities in the rules of 2008. 
+The main goal of the \thisyear\ rules was to fix some loop holes and
+ambiguities in the rules of the game.
 
 Some minor adjustments to the rules were made:
 \begin{enumerate}
-\item The maximum size of the robots was increased to 60cm,
-\item The foot size was limited to 13cm,
-\item The use of infra-red and sonar sensors was forbidden,
-\item The vision system of the robot was limited to a single camera or a stereo vision system,
-\item The sprint distance was increased to 300cm,
-\item The obstacle field size was increased to 300cm and step obstacles were replaced by hole obstacles,
-\item The marathon will most likely take place outdoors,
-\item The robot must pick up the bar in the weightlifting competition and the robot also must lift the weight while one foot is touching the lifting line,
-\item The distance between the robot and the basket and the radius of the three point line were increased to 75cm and 50cm respectively,
-\item A new climbing wall competiton was introduced.
-
+\item Time to complete the task will now be used as a tie breaker in
+  obstacle run, basketball, lift and carry, and penalty kick.
 \end{enumerate}
 
 I hope that we will have another exciting competition which will lead
@@ -197,6 +164,14 @@ robot must throw a ball into a coloured target. For detailed rules of
 the basketball event please refer to the document titled ``\HuroCup\
 Basketball - Laws of the Game.''
 
+\subsection{Climbing Wall}
+\label{subsec:climbing-wall}
+
+In the climbing wall competition, a single robot is supposed to scale
+a vertical wall as high as possible. The detailed rules for the
+climbing wall competition are given in ``\HuroCup\ Climbing Wall - Laws
+of the Game.''
+
 \subsection{Soccer}
 \label{subsec:soccer}
 
@@ -212,10 +187,10 @@ The following section describes the general law of the game for all
 \HuroCup\  events. It is based on the FIRA rules as well as the FIFA
 rules. 
 
-\law{The Players}
+\law[G]{The Players}
 \label{law:players}
 
-\begin{lawlist}
+\begin{lawlist}[G]
 \item \label{humanoid} The game is played using humanoid robots. The
   maximum size of the robots is 150cm. The maximum weight of the robot
   is 30 kg.
@@ -310,19 +285,15 @@ material.
   are special kicking devices on the foot, spinning upper bodies, or
   feet that can kick at a 90 degree angle.
 
-\item In 2009, the restriction on the sensors of the robot will be
-  strictly enforced. In particular, a robot is not allowed to use
-  sonar or infra-red sensors.
-
 \item The vision system of the camera is limited to a single camera or
   a stereo vision system using two cameras.
 
 \end{decisions}
 
-\law{The Referee}
+\law[G]{The Referee}
 \label{law:referee}
 
-\begin{lawlist}
+\begin{lawlist}[G]
 
 \item Every match is controlled by a referee who has full authority to
   enforce the Laws of the Game in connection with the match to which
@@ -417,10 +388,10 @@ material.
     \end{enumerate}
 \end{lawlist}
                                 
-\law{The Assistant Referee}
+\law[G]{The Assistant Referee}
 \label{law:assistant-referee}
 
-\begin{lawlist}
+\begin{lawlist}[G]
 \item The assistant referee is appointed whose duties, subject to
   the decision of the referee, are to 
   \begin{enumerate}

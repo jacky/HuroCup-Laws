@@ -3,10 +3,12 @@
 
 \documentclass[12pt]{hurocup}
 
+\include{hurocup_defs}
+
 \begin{document}
 
 \title{\HuroCup: Marathon\\
-  Laws of the Game 2009}
+  Laws of the Game \thisyear}
 
 
 \author{Jacky Baltes\\
@@ -194,11 +196,6 @@ the assitant referee.
   multiple robots interfering with each other, the right of way goes
   to the faster robot.
 
-\item A robot is not allowed to leave the track. A robot is considered
-  to have left the track if the distance between the current position
-  of the robot and the closest point on the centre line to that
-  position is more than 50cm.
-
 \item \label{inf-fix} The robot handler is not allowed to touch the
   robot. However, after being penalized for this infraction, the
   robot's handler may request permission from the referee to fix his
@@ -209,23 +206,35 @@ the assitant referee.
 \item \label{inf-hurocup} Any infractions as listed by the general
   \HuroCup\ laws as far as they are applicable in this event.
 
-\item Any team that commits one of the infractions listed
-  in~\ref{inf-interference} to~\ref{inf-hurocup} will be penalized by
-  a 2m push back by the referee. The robot must be placed 2m back
-  towards the start line along the track. If the robot is less than 2m
-  ahead of the start line, the robot shall be placed behind the start
-  line. This is subject to laws~\ref{handler1} and~\ref{handler2}.
+\item \label{leave-track} A robot is not allowed to leave the track. A
+  robot is considered to have left the track if the distance between
+  the current position of the robot and the closest point on the
+  centre line to that position is more than 50cm. 
+
+\item \label{leave-track-5} A robot that commits an infraction as
+  defined in ~\ref{leave-track} more than five times must terminate
+  its run. The performance of the robot will be based on the maximum
+  path distance at this time. If the robot has left the track less
+  than five times, then it will be penalized by a push back as defined
+  in ~\ref{push-back}.
+
+\item \label{push-back} Any team that commits one of the infractions
+  listed in~\ref{inf-interference} to~\ref{inf-hurocup} will be
+  penalized by a 2m push back by the referee. The robot must be placed
+  2m back towards the start line along the track. If the robot is less
+  than 2m ahead of the start line, the robot shall be placed behind
+  the start line. This is subject to laws~\ref{handler1}
+  and~\ref{handler2}.
 
 \item \label{inf-batteries} Not withstanding~\ref{inf-fix}, a team is
-  not allowed to change the batteries during the competition, changing
-  the batteries will immediately terminate the race for this robot.
+  not allowed to change the batteries during the competition. Changing
+  the batteries will lead to immediate disqualification of the team.
 
-\item \label{dead-reckoning} The robot must be able to sense the
-  track. A handler is not allowed to re-program the robot to execute a
-  pre-programmed set of motions (dead reckoning) to advance along the
-  track. The referee will imeediately terminate the race for a robot
-  that in the opinion of the referee does not sense the track
-  autonomously.
+\item \label{dead-reckoning} A handler is not allowed to re-program
+  the robot to execute a pre-programmed set of motions (dead
+  reckoning) to advance along the track. A robot will be disqualified
+  if the referee judges that the path of the robot was re-programmed
+  during the race.
 
 \end{lawlist}
 

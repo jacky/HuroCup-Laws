@@ -3,10 +3,12 @@
 
 \documentclass[12pt]{hurocup}
 
+\include{hurocup_defs}
+
 \begin{document}
 
 \title{\HuroCup: Penalty Kick\\
-  Laws of the Game 2009}
+  Laws of the Game \thisyear}
 
 
 \author{Jacky Baltes\\
@@ -35,11 +37,16 @@ robots.
 %
 \end{abstract}
 
-\section*{Latest Version of the Rules for \HuroCup}
+\section*{Latest Version of the Rules for \HuroCup\ Penalty Kick}
 \label{sec:updates}
 
 The latest official version of the rules of the game for \HuroCup\ is
 always available from the FIRA \HuroCup\ website (http://www.fira.net).
+
+\section*{Changes to the Rules of \HuroCup\ Penalty Kick for \thisyear}
+
+The major change for \thisyear\ is the use of the total time as a tie
+breaker in the competition.
 
 \newpage
 
@@ -204,9 +211,30 @@ new robot will be designated the goal keeper.
 
 \item Any robot that has not scored a single goal is automatically
   awarded 0 rank.
+
 \item Among the robots that have scored at least one goal, the robots
   are ranked (i.e., 1st place, 2nd place) based on the greater number
   of goals that the robot scored.
+
+\item In case of a tie, i.e., more than one robot having scored the
+  same number of goals, the robots will be ranked based on the total
+  time required to complete the number of rounds. For example, given
+  three robots that scored three goals each with the following times:
+
+      \begin{center}
+        \begin{tabular}{l|rrrrr|r|r|}
+          \hline
+          Robot & \multicolumn{5}{c}{Times} & Total Time & Rank \\
+          \hline
+          R1 & 30 & 0 & 120 & 110 & 10 & 270 & 3 \\
+          R2 & 50 & 50 & 50 & 50 & 50 & 250 & 2 \\
+          R3 & 100 & 0 & 0 & 100 & 20 & 220 & 1 \\
+          \hline
+        \end{tabular}
+      \end{center}
+
+  In this example, R3 will be ranked higher than R2, who will be
+  ranked higher than R1.
 
 \item The point allocation for robots is as follows:
   \begin{itemize}

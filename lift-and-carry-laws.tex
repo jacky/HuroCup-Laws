@@ -3,10 +3,12 @@
 
 \documentclass[12pt]{hurocup}
 
+\include{hurocup_defs}
+
 \begin{document}
 
 \title{\HuroCup: Lift and Carry\\
-  Laws of the Game 2009}
+  Laws of the Game \thisyear}
 
 \author{Jacky Baltes\\
 Autonomous Agents Laboratory\\
@@ -39,6 +41,11 @@ robots.
 
 The latest official version of the rules of the game for \HuroCup\ is
 always available from the FIRA \HuroCup\ website (http://www.fira.net).
+
+\section*{Changes to the Rules of \HuroCup\ Lift and Carry for \thisyear}
+
+The major change for \thisyear\ is the use of the total time as a tie
+breaker in the competition.
 
 \newpage
 
@@ -211,9 +218,31 @@ the middle of the terrain.
 \begin{lawlist}[LC]
 \item Any robot that has not crossed the uneven terrain at least once is
   automatically awarded $0$ rank.
+
 \item Among the robots that have crossed the uneven terrain at least
   once, the robots are ranked (i.e., 1st place, 2nd place) based on
   the greater number of batteries carried.
+
+\item In case of a tie, i.e., more than one robot having carried the
+  same number of batteries, the robots will be ranked based on the
+  total time required to complete the number of rounds. For example,
+  given three robots that have carried five batteries each with the
+  following times:
+
+      \begin{center}
+        \begin{tabular}{l|rrrrr|r|r|}
+          \hline
+          Robot & \multicolumn{5}{c}{Times} & Total Time & Rank \\
+          \hline
+          R1 & 30 & 0 & 120 & 110 & 10 & 270 & 3 \\
+          R2 & 50 & 50 & 50 & 50 & 50 & 250 & 2 \\
+          R3 & 100 & 0 & 0 & 100 & 20 & 220 & 1 \\
+          \hline
+        \end{tabular}
+      \end{center}
+
+  In this example, R3 will be ranked higher than R2, who will be
+  ranked higher than R1.
 
 \item The point allocation for robots is as follows:
   \begin{itemize}
@@ -258,12 +287,12 @@ the middle of the terrain.
 \end{lawlist}
 
 \begin{decisions}
-\item For the 2009 competition, the technical committee decided that
-in addition to the restrictions given above, the uneven terrain
-includes the following simplifications:
+\item For the \thisyear\ competition, the technical committee decided
+  that in addition to the restrictions given above, the uneven terrain
+  includes the following simplifications:
 \begin{itemize}
 \item The uneven terrain will only contain steps wich move one level
-up or down.
+  up or down.
 \item The minimum distance between edges of the sheets is 5 cm.
 \end{itemize}
 These additional constraints are targeted at simplifying the lift and
