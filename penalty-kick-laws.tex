@@ -34,7 +34,6 @@ Email: tuky@ccms.nkfust.edu.tw\\
 The following rules and regulations govern the penalty kick event in
 \HuroCup, a robotic game and robotics benchmark problem for humanoid
 robots.
-%
 \end{abstract}
 
 \section*{Latest Version of the Rules for \HuroCup\ Penalty Kick}
@@ -45,17 +44,17 @@ always available from the FIRA \HuroCup\ website (http://www.fira.net).
 
 \section*{Changes to the Rules of \HuroCup\ Penalty Kick for \thisyear}
 
-The major change for \thisyear\ is the use of the total time as a tie
-breaker in the competition.
+The major change for \thisyear\ is the extension of the penalty kick
+to include a dribble section where the robot has to dribble the ball
+towards the goal.
 
 \newpage
 
 \section{Penalty Kick}
 \label{sec:penalty-kick}
 
-In this challenge, the robot must approach and kick a ball positioned
-somewhere in the ball area. A robot from a different team will act as
-goal keeper during this event.
+In this challenge, the robot must approach, dribble a ball into the
+shooting zone, and kick a ball into the goal.
 
 \section{Laws of the Game: Penalty Kick}
 \label{sec:laws-penalty-kicks}
@@ -96,6 +95,11 @@ referees) please refer to the general \HuroCup\ laws.
 the penalty mark to the top left and top right corner points of the
 goal area.
 
+\item A 120cm wide goal area centered on the goal line extends 30cm
+  long into the playing field.
+
+\item A 160cm wide shooting zone centered on the goal line extends
+  90cm into the field.
 \end{lawlist}
 
 \law[PK]{The Ball}
@@ -128,10 +132,10 @@ the assitant referee.
 
 \begin{lawlist}[PK]
 
-\item One robot is designated the kicker, another robot is designated
-the goal keeper. All other robots must be positioned behind the centre
-line and must not interfere with the designated kicker or goal keeper
-in any way.
+\item One robot is designated the kicker, a static goal keeper is
+  placed in the goal. All other robots must be positioned behind the
+  centre line and must not interfere with the designated kicker or
+  goal keeper in any way.
 
 \item The only robots allowed to move during a penalty kick are the
   designated kicker and goal keeper.
@@ -147,28 +151,37 @@ in any way.
   The kick will be declared invalid if the handler touches the robot.
 
 \item The kicker robot must be at the start point at the beginning of
-the competition. The start point for
-  \begin{itemize}
-  \item small robots is 15cm behind the penalty mark for small robots
-    in the center of the playing field.
-    \item large robots is 30cm behind the penalty mark for large
-      robots in the center of the playing field.
-    \end{itemize}
+  the competition. The start point for small and large robots is 160cm
+  away from the goal line in the centre of the goal line.
 
 \item The designated goal keeper must be positioned so that a part of
  the robot touches the goal line at the start of the game.
 
-\item The referee will place a ball at a random position inside of the
- penalty area. 
+\item The referee will place the ball 160cm away from the goal line
+  centered along the goal line and the kicker is placed behind the
+  ball.
+
+\item Three wall obstacles as described in the ``\HuroCup: Obstacle
+  Run Laws of the Game \thisyear'' rules will be placed 140cm away
+  from the goal line. One obstacle is centered along the goal line and
+  the other two obstacles are placed so that the distance between
+  obstacles is at least 50cm.
+
+\item The kicker has to move the ball from the start point into the
+  shooting zone without touching any of the obstacles. Once the ball
+  is completely inside the shooting zone, the kicker must kick the
+  ball into the goal.
 
 \item The designated kicker is not allowed to leave the playing field
- or enter the goal area.
+  or enter the goal area.
+
+\item The designated kicker is not allowed to touch any obstacle.
 
 \item The designated goal keeper is not allowed to leave the goal
 area.
 
 \item The designated goal keeper must remain in a standard walking
-posture until the ball has been kicked.
+posture until the ball has been kicked at the goal.
 
 \item Any infringements of the rules shall be dealt with according to
 the general \HuroCup\ rules.
@@ -180,20 +193,19 @@ the general \HuroCup\ rules.
   The referee terminates the penalty kick if
   \begin{itemize}
   \item a goal has been scored by the kicker,
+  \item the ball is kicked into the goal from outside of the shooting zone,
   \item the ball moved outside of the playing field,
   \item a robot is immobilized by a technical defect,
   \item a robot leaves the playing field,
-  \item the maximum duration of the competition (2 minutes) has elapsed.
+  \item a robot touches an obstacle,
+  \item the maximum duration of the competition (2 minutes) has elapsed,
   \item at least 1 minute has elapsed since the start of the
     competition and it is unlikely in the opinion of the referee that
-    the kicker will score in the next minute,
+    the kicker will score in the next minute.
   \end{itemize}
 
 \item After the end of the penalty kick, the next robot is
   designated the kicker.
-
-\item After all other players have played against a robot as goal keeper, a
-new robot will be designated the goal keeper. 
 
 \end{lawlist}
 
@@ -202,12 +214,8 @@ new robot will be designated the goal keeper.
 
 \begin{lawlist}[PK]
 
-\item The number of rounds in the competition is dependent on the
-  number of robots in the event. Each robot will take a penalty kick
-  against all other robots and will play goal keeper against all other
-  robots at least once. So, if there are five robots in the competition,
-  each robot will take four penalty kicks and there will be 20 kicks in
-  total. Each robot receives one point for each goal that was scored.
+\item The number of rounds in the competition will be announced at the
+  beginning of the competition.
 
 \item Any robot that has not scored a single goal is automatically
   awarded 0 rank.
@@ -279,17 +287,13 @@ new robot will be designated the goal keeper.
 \end{lawlist}
 
 \begin{decisions}
-\item A robot may follow up on the ball, that is, should the first
-  shot miss, but still be inside of the playing field, then the kicker
-  can repeatedly approach the ball and kick toward the goal.
-\item A robot may also re-approach the ball if it missed hitting the
-  ball in the first attempt.
 \item The goal keeper is not allowed to squat or try to block a large
   part of the goal until the ball has been kicked for the first
   time. 
 \item During the time between the start of the penalty kick and the
-  time that the ball has been kicked, the robot may move freely in the
-  goal area as long as it remains in a standard walking posture.
+  time that the ball has been kicked at goal, the robot may move
+  freely in the goal area as long as it remains in a standard walking
+  posture.
 \end{decisions}
 
 \end{document}
