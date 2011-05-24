@@ -13,8 +13,8 @@
    height="744.09448"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
-   sodipodi:docname="marathon-track.svg"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="marathon-marker.svg"
    inkscape:export-filename="/home/jacky/FIRA 2011/Dropbox/HuroCupLaws/Figures/marathon-track.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -90,7 +90,7 @@
      showgrid="false"
      inkscape:window-width="1135"
      inkscape:window-height="784"
-     inkscape:window-x="0"
+     inkscape:window-x="7"
      inkscape:window-y="62"
      inkscape:window-maximized="0"
      inkscape:snap-object-midpoints="false"
@@ -103,7 +103,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,13 +112,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-308.2677)">
-    <rect
-       style="fill:#000000;stroke:#000000;stroke-width:3.54330707000000000;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect3004"
-       width="545.71429"
-       height="545.71429"
-       x="77.14286"
-       y="430.77121" />
     <g
        id="g4410">
       <path
@@ -159,21 +152,34 @@
            sodipodi:role="line">10cm</tspan></text>
     </g>
     <g
-       id="g5230"
-       transform="translate(52,0)"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         sodipodi:nodetypes="ccc"
-         inkscape:connector-curvature="0"
-         id="path4454"
-         d="m 251.17926,974.9254 0,-294.59407 261.6415,0"
-         style="fill:none;stroke:#e6e6e6;stroke-width:91.86509705;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5222"
-         d="m 460.41388,596.17909 0,173.669 108.0607,-91.33703 z"
-         style="fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       id="g3912">
+      <g
+         id="g3888">
+        <rect
+           style="fill:#000000;stroke:#000000;stroke-width:3.54330707000000000;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect3004"
+           width="545.71429"
+           height="545.71429"
+           x="77.14286"
+           y="430.77121" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="translate(52,0)"
+         id="g5230">
+        <path
+           style="fill:none;stroke:#e6e6e6;stroke-width:91.86509705;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 251.17926,974.9254 0,-294.59407 261.6415,0"
+           id="path4454"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 460.41388,596.17909 0,173.669 108.0607,-91.33703 z"
+           id="path5222"
+           inkscape:connector-curvature="0" />
+      </g>
     </g>
   </g>
 </svg>
