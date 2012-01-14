@@ -44,7 +44,12 @@ always available from the FIRA \HuroCup\ website (http://www.fira.net).
 
 \section*{Changes to the Rules of \HuroCup\ Lift and Carry for \thisyear}
 
-There is no changes in the rules for \thisyear.
+The game play has been changed to make it more flexible and more
+challenging. The robot now has to start at a random position around
+the field and then reach the highest point on the uneven field and
+then leave the stepping field.
+
+The size of the uneven field has been increased to 1.5m by 1.5m.
 
 \newpage
 
@@ -53,12 +58,17 @@ There is no changes in the rules for \thisyear.
 
 The goal of this competition is to provide an event that requires
 robots to use active balancing. The robots will be fitted with a small
-basket. The robots repeatedly walk across an uneven terrain from one
-side to the other. Once the robot reaches the end of the uneven
-terrain, the referee adds small heavy obstacles into the basket. The
-robot must compensate for the extra weight and continue to cross the
-uneven terrain.  to walk. The robot that can carry the most weight is
-declared the winner of the event.
+basket. The robot must start at a random spot around the field and
+then reach a specific location on the uneven field. Once the robot has
+reached the target location it must then continue and leave again the
+uneven field.
+
+Once a robot has successfully completed a run, extra weight is added
+to the robot and it has to complete another run from a different
+random location.
+
+The robot that can successfully carry the most weight is declared the
+winner of the event.
 
 \section{Laws of the Game: Lift and Carry Competition}
 \label{sec:rules-lift-carry}
@@ -76,9 +86,8 @@ the referees) please refer to the general \HuroCup\ laws.
 \item The dimensions of the playing field are at least 180cm by
   180cm.
 
-\item An approximately 1.00m by 1.00m wide uneven terrain is placed by
-the referee in the playing field (See
-Fig.~\ref{fig:lift-and-carry-field}.
+\item An approximately 1.50m by 1.50m wide uneven terrain is placed
+  within the playing field (See Fig.~\ref{fig:lift-and-carry-field}.
 
   \begin{figure}
     \begin{center}
@@ -110,9 +119,6 @@ have different colours as shown in Fig.~\ref{fig:uneven-terrain}.
     \caption{A sample uneven terrain}
     \label{fig:uneven-terrain}
   \end{figure}
-
-\item Teams may place small coloured markers in the goal area as long
-  as they do not interfere with other teams.
 
 \end{lawlist}
 
@@ -169,19 +175,34 @@ the assitant referee.
     \label{fig:robot-lift-and-carry-basket}
   \end{figure}
 
-\item The runner will be placed at one end of the uneven terrain in
-the middle of the terrain.
+\item The runner will be placed at a random location on the edge of
+  the uneven terrain. 
 
-\item At the beginning of the competition, the referee will place one
-  weight in the basket attached to the robot.
+\item At the beginning of the competition, the referee will place five
+  weights in the basket attached to the robot.
 
 \item The referee will signal the start of the competition by blowing
   the whistle.
 
-\item After the referee gives the start signal, the robot must cross
-  the uneven terrain to reach the other side.
+\item After the referee gives the start signal, the robot must
+  immediately step onto to the uneven terrain. Then it must reach the
+  highest spot on the uneven terrain. The robot has reached that the
+  highest spot if it touches the highest spot with both feet.
 
-\item A robot is not allowed to leave the uneven terrain along the sides.
+\item Once the robot has successfully reached the highest spot on the
+  uneven terrain, it must then leave the uneven terrain. The robot has
+  left the field if both feet touch the ground outside of the uneven
+  terrain.
+
+\item Once the robot leaves the field after having reached the highest
+  spot, the referee will add five weights to the robot and another run
+  will start from a random location selected by the referee.
+
+\item A robot is not allowed to leave the uneven terrain without
+  touching the highest spot first.
+
+\item The robot is not allowed to fall during a trial. The only parts
+  of the robot that are allowed to touch the ground are its feet.
 
 \item Each robot may have at most one human handler associated with
   it.
@@ -197,14 +218,13 @@ the middle of the terrain.
   blowing the whistle a second time.
   The referee terminates the competition if
   \begin{itemize}
-  \item the robot has crossed the uneven terrain with a maximum load,
-  \item the robot was unable to cross the uneven terrain within 2 minutes,
-  \item the robot falls and is unable to get up on its own or is
-    immobilized by a technical defect, 
-  \item the robot leaves the uneven terrain along the side lines,
-  \item at least one minute has elapsed since the start of the
-    competition and it is unlikely in the opinion of the referee that
-    the robot will cross the finish line within the remaining time.
+  \item the robot has left the uneven terrain with a maximum load,
+  \item the robot was unable to reach the highest spot and then leave
+    the field within 2 minutes,
+  \item the robot does not immediately step on the uneven terrain at
+      the start of the trial,
+  \item the robot leaves the uneven terrain before reaching the
+    highest spot,
   \end{itemize}
 
 \item At the end of the run, another robot will be designated the
@@ -215,10 +235,10 @@ the middle of the terrain.
 \law[LC]{Method of Scoring}
 
 \begin{lawlist}[LC]
-\item Any robot that has not crossed the uneven terrain at least once is
-  automatically awarded $0$ rank.
+\item Any robot that has not reached the highest spot and left the
+  uneven terrain at least once is automatically awarded $0$ rank.
 
-\item Among the robots that have crossed the uneven terrain at least
+\item Among the robots that have left the uneven terrain at least
   once, the robots are ranked (i.e., 1st place, 2nd place) based on
   the greater number of batteries carried.
 
@@ -275,13 +295,13 @@ the middle of the terrain.
   \end{itemize}
 
 \item In case of a tie between $n$ robots with rank $k$, all robots
- will be awarded rank $k$ and receive the average of the scores for
- ranks $k$ to $k+n$.  For example, if the robots $A,B,C,D$ scored $10,
- 8, 8, 4$ goals respectively, then robot $A$ will be declared the
- winner (1st place) and receive 10 points, both robots $B$ and $C$
- will be declared 2nd place finishers and receive $(8+6)/2=7$, and
- robot $D$ will be declared the fourth place finisher and receive $4$
- points.
+  will be awarded rank $k$ and receive the average of the scores for
+  ranks $k$ to $k+n$.  For example, if the robots $A,B,C,D$ scored
+  $10, 8, 8, 4$ points respectively, then robot $A$ will be declared
+  the winner (1st place) and receive 10 points, both robots $B$ and
+  $C$ will be declared 2nd place finishers and receive $(8+6)/2=7$,
+  and robot $D$ will be declared the fourth place finisher and receive
+  $4$ points.
 
 \end{lawlist}
 
@@ -292,7 +312,7 @@ the middle of the terrain.
 \begin{itemize}
 \item The uneven terrain will only contain steps wich move one level
   up or down.
-\item The minimum distance between edges of the sheets is 5 cm.
+\item The minimum distance between edges of the sheets is 3 cm.
 \end{itemize}
 These additional constraints are targeted at simplifying the lift and
 carry competition over uneven terrain.
