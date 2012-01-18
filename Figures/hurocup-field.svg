@@ -13,10 +13,10 @@
    height="1275.5906"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.48.1 "
+   inkscape:version="0.48.2 r9819"
    version="1.0"
    sodipodi:docname="hurocup-field.svg"
-   inkscape:export-filename="./hurocup-field.png"
+   inkscape:export-filename="/windows/HuroCup-Laws/Figures/hurocup-field.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -115,16 +115,21 @@
      inkscape:cx="871.55238"
      inkscape:cy="758.74475"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      width="540mm"
      height="360mm"
      units="mm"
-     inkscape:window-width="1600"
-     inkscape:window-height="878"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     showgrid="false"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1280"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     showgrid="true"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3070" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -143,7 +148,7 @@
      id="layer1"
      style="display:inline">
     <rect
-       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:3.54330707000000000;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:3.54330707000000000;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1879"
        width="1913.3859"
        height="1275.5906"
@@ -362,10 +367,10 @@
          sodipodi:role="line"
          id="tspan3073"
          x="849.79449"
-         y="40.831875">390 - 490 cm</tspan></text>
+         y="40.831875">660 - 760 cm</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:27.99999428px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:27.99999428px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="879.89966"
        y="1228.9663"
        id="text3075"
@@ -374,7 +379,7 @@
          sodipodi:role="line"
          x="879.89966"
          y="1228.9663"
-         id="tspan3079">330-430cm</tspan></text>
+         id="tspan3079">600-700cm</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:27.99999428px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -494,12 +499,12 @@
          id="text3163"
          y="1850.5328"
          x="-684.54749"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
            y="1850.5328"
            x="-684.54749"
            id="tspan3165"
-           sodipodi:role="line">100cm</tspan></text>
+           sodipodi:role="line">200cm</tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -538,16 +543,16 @@
          id="text3179"
          y="1310.3219"
          x="-719.21021"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
            id="tspan3181"
            y="1310.3219"
            x="-719.21021"
-           sodipodi:role="line">250-350cm</tspan></text>
+           sodipodi:role="line">400-500cm</tspan></text>
     </g>
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="-717.56409"
        y="1980.9871"
        id="text3183"
@@ -556,6 +561,6 @@
          sodipodi:role="line"
          x="-717.56409"
          y="1980.9871"
-         id="tspan3185">310-410cm</tspan></text>
+         id="tspan3185">460-560cm</tspan></text>
   </g>
 </svg>
