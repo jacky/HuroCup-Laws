@@ -788,12 +788,13 @@ from the referee box.
   \hline
   Header          & UINT16 & 0xADDE\\
   Length          & UINT16 & Length of the message in bytes\\
-  Robot ID        & UINT8 & Robot ID\\
+  Robot ID        & UINT8 & Robot or referee ID\\
   Sequence Number & UINT16 & Incremented for each message send by the
                              robot.\\
   Number of Objects & UINT8 & Number of objects in the message\\
   Objects & OBJECT[NUM\_OBJ] & The objects describing the state, perceptions,
                      and intentions of the robot\\
+  Dummy & UINT8 & Future extension, 0x00 for now\\
   Checksum & UINT8 & Sum of all bytes in the message excluding the
                      checksum itself\\
   \hline
@@ -814,16 +815,18 @@ Positive direction of the X coordinate is along the touch
 line. Positive direction of the Y coordinate is towards the home goal.
 
 All orientation data is transmitted as a signed 16 bit integer in
-radians multiplied by 10000 (RADIANS\_10000). For example, -18000
-corresponds to an angle of $- 18023$ is equal to $1.8023$ radians or
-approximately $-103$ degrees.
+radians multiplied by 10000 (RADIANS*10000). For example, $-18023$ in
+RADIANS*10000 is equal to $-1.8023$ radians or approximately $-103$
+degrees.
 
 An angle of $0$ degrees is along the positive direction of the X axis
-(touch line) and $90$ degree is along the goal line.
+(touch line) and $90$ degree is along the positive direction of the Y
+axis (goal line).
 
 Each object has a confidence level associated with it. A robot can use
-the confidence value to model how sure it is of this objects
+the confidence value to model how sure it is of this object's
 information. A value of 255 indicates maximum confidence in the object
+information, a value of 0 indicates low confidence in this
 information.
 
 \subsubsection*{State Object}
@@ -848,14 +851,14 @@ The following shows the format of the state object.
     0 = UNDEFINED\\
     1 = Own position\\
     2 = Ball\\
-    3 = Team Robot \\
+    3 = Team Robot\\
     4 = Opponent Robot\\
     5 = Team Goal\\
     6 = Opponent Goal\\
   \end{minipage}\\
   Location X & INT16 & X location of the object in mm\\
   Location Y & INT16 & Y location of the object in mm\\
-  Orientation & INT16 & Orientation of the robot in RADIANS\_10000\\
+  Orientation & INT16 & Orientation of the object in RADIANS*10000\\
   Confidence & UINT8 & Confidence value\\
   \hline
 \end{tabular}
@@ -865,7 +868,8 @@ The following shows the format of the state object.
 
 A robot can use a perception object to describe what it is currently
 or has most recently sensed. If an object is not currently being
-sensed then a state object must be used to transmit its information.
+sensed then a state object should be used to transmit its associated
+information.
 
 The following shows the format of the perception object.
 
@@ -883,10 +887,12 @@ The following shows the format of the perception object.
     36 = Opponent Robot\\
     37 = Team Goal\\
     38 = Opponent Goal\\
+    39 = Field Line\\
+    40 = Center Circle\\
   \end{minipage}\\
   Location X & INT16 & X location of the object in mm\\
   Location Y & INT16 & Y location of the object in mm\\
-  Orientation & INT16 & Orientation of the robot in RADIANS\_10000\\
+  Orientation & INT16 & Orientation of the robot in RADIANS*10000\\
   Confidence & UINT8 & Confidence value\\
   \hline
 \end{tabular}
@@ -910,12 +916,13 @@ receiving a pass.
   Type          & UINT8 & 
   \begin{minipage}[t]{\linewidth}
     64 = UNDEFINED\\
-    65 = Target location of movement\\
+    65 = Shot on Goal\\
     66 = Play goal keeper\\
+    67 = Movement\\
   \end{minipage}\\
-  Location X & UINT16 & X location of the object in mm\\
-  Location Y & UINT16 & Y location of the object in mm\\
-  Orientation & INT16 & Orientation in RADIANS\_10000\\
+  Location X & UINT16 & X target location in mm\\
+  Location Y & UINT16 & Y target location in mm\\
+  Orientation & INT16 & Target orientation in RADIANS*10000\\
   Offence & UINT8 & Aggressiveness of the intention\\
   \hline
 \end{tabular}
@@ -951,10 +958,11 @@ During \verb+Game Set+, all robots should remain motionless.
   State & UINT8 & 
   \begin{minipage}[t]{\linewidth}
     0 = Game Stopped\\
-    1 = Kick Off Red\\
-    2 = Kick Off Blue\\
-    3 = Game Set\\
-    4 = Game Play\\
+    1 = Set: Kick Off Red\\
+    2 = Set: Kick Off Blue\\
+    3 = Play: Kick Off Red\\
+    4 = Play: Kick Off Blue\\
+    5 = Play: Ball in play\\
   \end{minipage}\\
   \hline
 \end{tabular}
@@ -976,13 +984,14 @@ transmitted in a message.
   \hline
   Type          & UINT8 & 
   \begin{minipage}[t]{\linewidth}
-    96 = UNDEFINED\\
-    97 = Game State\\
+    128 = User defined\\
+    ...
+    255
   \end{minipage}\\
-  Proprietary1 & UINT16 & Extension data\\
-  Proprietary2 & UINT16 & Extension data\\
-  Proprietary3 & INT16 & Extension data\\
-  Proprietary4 & UINT8 & Extension data\\
+  User defined 1 & UINT16 & Extension data\\
+  User defined 2 & UINT16 & Extension data\\
+  User defined 3 & INT16 & Extension data\\
+  User defined 4 & UINT8 & Extension data\\
   \hline
 \end{tabular}
 \end{center}
